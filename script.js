@@ -5,7 +5,12 @@ request.onload=function(){
     var result=JSON.parse(request.response);
     console.log(result);
     
-for(var i=0;i<result.length;i++){
+result.forEach(s)
+
+var res="";
+function s(){
+   for(var i in result){
     console.log(result[i].name);
-}
+   }
+}    
 }
